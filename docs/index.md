@@ -1,11 +1,25 @@
 ---
-title: Blank CSS
+title: blank.css
 layout: default
 ---
 
-<h2>General</h2>
+# `blank.css`
 
-<fieldset>
+## Examples
+
+- General
+  - [Headings](#headings)
+  - [Buttons](#buttons)
+  - [Inputs](#inputs)
+  - [Colors](#colors)
+- Layouts
+  - [Stack](#layout-stack)
+  - [One-Two-One](#layout-one-two-one)
+  - [One-Two-One-Responsive](#layout-one-two-one-responsive)
+
+### General
+
+<fieldset id="headings">
   <legend>Headings</legend>
 
   <h1>Heading 1</h1>
@@ -16,7 +30,7 @@ layout: default
   <h6>Heading 6</h6>
 </fieldset>
 
-<fieldset>
+<fieldset id="buttons">
   <legend>Buttons</legend>
 
   <button type="submit">Primary</button>
@@ -28,7 +42,7 @@ layout: default
   <button type="button" disabled>Secondary</button>
 </fieldset>
 
-<fieldset>
+<fieldset id="inputs">
   <legend>Inputs</legend>
 
   <input type="text" placeholder="type here">
@@ -44,7 +58,7 @@ layout: default
   <label><input type="radio" disabled> Radio</label>
 </fieldset>
 
-<fieldset class="colors">
+<fieldset id="colors" class="colors">
   <legend>Colors</legend>
 
   <div style="display:inline-block;width: 45%">
@@ -87,9 +101,9 @@ layout: default
   <div style="background: white">white</div>
 </fieldset>
 
-<h2>Layouts</h2>
+### Layouts
 
-<fieldset>
+<fieldset id="layout-stack">
   <legend>Stack</legend>
 
   <div class="layout stack">
@@ -110,7 +124,7 @@ layout: default
   </div>
 </fieldset>
 
-<fieldset>
+<fieldset id="layout-one-two-one">
   <legend>One-Two-One</legend>
 
   <div class="layout one-two-one">
@@ -131,7 +145,7 @@ layout: default
   </div>
 </fieldset>
 
-<fieldset>
+<fieldset id="layout-one-two-one-responsive">
   <legend>One-Two-One-Responsive</legend>
 
   <div class="layout one-two-one-responsive">

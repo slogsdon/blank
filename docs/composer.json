@@ -1,0 +1,10 @@
+{
+  "name": "slogsdon/blank-docs",
+  "description": "Docs for blank.css",
+  "scripts": {
+    "start": "@php -S 0.0.0.0:4000"
+  },
+  "config": {
+    "process-timeout": 0
+  }
+}

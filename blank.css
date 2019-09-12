@@ -21,11 +21,14 @@
   font-family: var(--font-family);
   font-size: var(--font-size);
   font-weight: var(--font-weight);
-  line-height: 1.35rem;
 }
 
 body {
   margin: 0;
+}
+
+p, blockquote, input, ul, ol, dl {
+  line-height: 1.35rem;
 }
 
 fieldset {
@@ -77,6 +80,12 @@ input[type="radio"] {
 
 hr {
   border-top: .0625rem solid var(--primary-foreground-color);
+}
+
+blockquote {
+  border-left: .50rem solid var(--grey-6);
+  margin-left: .50rem;
+  padding-left: 1rem;
 }
 
 .flex-container {

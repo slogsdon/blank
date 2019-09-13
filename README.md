@@ -17,7 +17,8 @@ Plain CSS is readily available and flexible. Modern browser's CSS support is mor
 Download or hotlink [`blank.css`](blank.css), for example:
 
 ```html
-<link href="https://slogsdon.github.io/blank/blank.css" type="text/css" rel="stylesheet">
+<link href="https://slogsdon.github.io/blank/blank.css"
+      type="text/css" rel="stylesheet">
 ```
 
 See <https://slogsdon.github.io/blank/> for more details.

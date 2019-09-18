@@ -28,7 +28,7 @@ body {
 }
 
 p, blockquote, input, ul, ol, dl {
-  line-height: 1.35rem;
+  line-height: 1.5rem;
 }
 
 fieldset {
@@ -80,6 +80,7 @@ input[type="radio"] {
 
 hr {
   border-top: .0625rem solid var(--primary-foreground-color);
+  border-bottom: 0;
 }
 
 blockquote {

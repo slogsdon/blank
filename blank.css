@@ -15,7 +15,7 @@
     'Segoe UI', Roboto, 'Helvetica Neue',
     Ubuntu, Arial, sans-serif;
   --font-size: 16px;
-  --font-weight: lighter;
+  --font-weight: 300;
 
   color: var(--grey-0);
   font-family: var(--font-family);

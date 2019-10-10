@@ -90,6 +90,13 @@ blockquote {
   padding-left: 1rem;
 }
 
+pre {
+  overflow: auto;
+  word-wrap: normal;
+  overflow-wrap: normal;
+  white-space: pre;
+}
+
 .flex-container {
   display: flex;
 }

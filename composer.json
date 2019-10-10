@@ -2,6 +2,7 @@
   "name": "slogsdon/blank-docs",
   "description": "Docs for blank.css",
   "scripts": {
+    "minify": "@php minify.php",
     "start": "@php -S 0.0.0.0:4000"
   },
   "config": {

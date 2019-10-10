@@ -14,7 +14,7 @@ Plain CSS is readily available and flexible. Modern browser's CSS support is mor
 
 ## Getting Started
 
-Download or hotlink [`blank.css`](blank.css), for example:
+Download or hotlink [`blank.css`](blank.css) or [`blank.min.css`](blank.min.css), for example:
 
 ```html
 <link href="https://slogsdon.github.io/blank/blank.css"

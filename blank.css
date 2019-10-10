@@ -25,6 +25,15 @@
 
 body {
   margin: 0;
+  padding: 0 .25rem;
+}
+
+a {
+  color: cornflowerblue;
+}
+
+a:visited {
+  color: orchid;
 }
 
 p, blockquote, input, ul, ol, dl {
@@ -87,6 +96,13 @@ blockquote {
   border-left: .50rem solid var(--grey-6);
   margin-left: .50rem;
   padding-left: 1rem;
+}
+
+pre {
+  overflow: auto;
+  word-wrap: normal;
+  overflow-wrap: normal;
+  white-space: pre;
 }
 
 .flex-container {
@@ -158,6 +174,10 @@ blockquote {
 }
 
 @media (min-width: 31.25rem) {
+  body {
+    padding: 0;
+  }
+
   .one-two-one-responsive {
     grid-template-columns: 12.5rem 1fr;
   }
@@ -166,5 +186,58 @@ blockquote {
 @media (min-width: 60rem) {
   .one-two-one-responsive {
     grid-template-columns: 21.75rem 1fr;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background: var(--grey-1);
+    color: var(--grey-7);
+  }
+
+  fieldset {
+    border-color: var(--primary-background-color);
+  }
+
+  button {
+    background: var(--primary-foreground-color);
+    border-color: var(--primary-background-color);
+    color: var(--primary-background-color);
+  }
+
+  button:active {
+    background: var(--primary-background-color);
+    color: var(--primary-foreground-color);
+  }
+
+  button[type="button"] {
+    border-color: var(--grey-3);
+    color: var(--grey-4);
+  }
+
+  button[type="button"]:active {
+    background: var(--grey-3);
+    color: var(--primary-foreground-color);
+  }
+
+  input {
+    border-color: var(--grey-3);
+  }
+
+  input:focus {
+    border-color: var(--grey-5);
+  }
+
+  input[type="checkbox"],
+  input[type="radio"] {
+    border-color: var(--primary-background-color);
+  }
+
+  hr {
+    border-color: var(--primary-background-color);
+  }
+
+  blockquote {
+    border-color: var(--grey-2);
   }
 }
